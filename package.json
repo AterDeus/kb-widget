@@ -1,0 +1,24 @@
+{
+  "name": "kb",
+  "version": "1.0.0",
+  "description": "kb widget",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject-stringified-html": "^1.0.3",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

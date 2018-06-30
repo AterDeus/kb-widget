@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/scripts.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="kb-overlay">
+		<div class="kb-modal kb-modal--dark">
+			<div class="kb-modal__content">
+				<div class="kb-modal__close">&#10006</div>
+				<div class="kb-modal__title">Обещаем. Никакого спама. Только хорошие новости</div>
+				<div class="kb-modal__subtitle">
+					Подписаться на рассылку.<br>
+					А тут бац и вторая строка!
+				</div>
+				<form action="" class="kb-modal__form">
+					<div class="kb-modal__step kb-modal__step1">
+						<div class="kb-row">
+							<div class="kb-col-md-6 kb-col kb-modal__input-wrap">
+								<input id="kb-email"  type="email" name="kb-email" class="kb-error">
+								<label for="kb-email">Email</label>
+								<div class="kb-modal__error">Обязательное поле <div class="kb-modal__error__arrow"></div></div>
+							</div>
+							<div class="kb-col-md-6 kb-col">
+								<button type="submit">Подписаться</button>
+							</div>
+						</div>
+					</div>
+					<div class="kb-modal__step kb-modal__step2">
+						<div class="kb-modal__title">Ваш пол?</div>
+						<div class="kb-modal__gender-wrap kb-modal__input-wrap">
+							<div class="kb-modal__gender">
+								<input type="radio" id="kb-gender-m" name="kb-gender">
+								<label for="kb-gender-m">Мужской</label>
+							</div>
+							<div class="kb-modal__gender">
+								<input type="radio" id="kb-gender-f" name="kb-gender">
+								<label for="kb-gender-f">Женский</label>
+							</div>
+							<div class="kb-modal__error">Обязательное поле <div class="kb-modal__error__arrow"></div></div>
+						</div>
+					</div>
+					<div class="kb-modal__step kb-modal__step3">
+						<div class="kb-modal__title">Как вас зовут?</div>
+						<div class="kb-row">
+							<div class="kb-modal__input-wrap kb-col-md-6 kb-col kb-col-md-offset-3">
+								<input id="kb-name"  type="text" name="kb-name">
+								<label for="kb-name">Имя</label>
+								<div class="kb-modal__error">Обязательное поле <div class="kb-modal__error__arrow"></div></div>
+							</div>
+						</div>
+					</div>
+					<div class="kb-modal__finish">
+						<div class="kb-modal__title">Всё супер</div>
+						<div class="kb-modal__text">Мы уже отправили вам email, осталось только чтобы вы подтвердили подписку!</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
